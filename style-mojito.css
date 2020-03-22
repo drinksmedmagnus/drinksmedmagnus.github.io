@@ -1,0 +1,86 @@
+	* {
+	box-sizing: border-box;
+	}
+	body {
+		background-color: #766;
+		text-align: center;
+	}
+	
+	.topnav {
+		background-color: #222;
+		overflow: hidden;
+	}
+		
+	.topnav a {
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+			
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	}
+			
+	.topnav a.active {
+		background-color: SandyBrown;
+		color: white;
+	}
+	
+	.titel {
+		color: SandyBrown;
+		border: solid 2px;
+		background-color: white;
+	}
+	
+	.image {
+		color: SandyBrown;
+		border: solid 1px;
+		float: left;
+	}
+	.container {
+		position: relative;
+	}
+	.text-block {
+		position: relative;
+		color: white;
+	}
+	.picture {
+		float: left;
+		width: 30%
+		background: #ccc;
+		padding: 20px;
+		height: 550px;
+	}
+	.ingredients {
+		float: left;
+		width: 27.5%;
+		background: #ccc;
+		padding: 20px;
+		height: 550px;
+		list-style-type: circle;
+	}	
+	.instructions {
+		float: left;
+		padding: 20px;
+		width: 27.5%;
+		background-color: #f1f1f1;
+		height: 550px;
+	}
+	.ingredients:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.empty {
+		width: 15%;
+		height: 550px;
+	}
+	.footer {
+		background-color: #777;
+		padding: 20px;
+		text-align: left;
+		color: #444;
