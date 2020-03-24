@@ -62,6 +62,7 @@
 		border: 1px solid SandyBrown;
 		float: left;
 		width: 180px;
+		background-color: #999
 	}
 
 	div.gallery:hover {
