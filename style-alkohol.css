@@ -51,6 +51,8 @@
 		text-align: left;
 		color: #444;
 		width: 100%
+		position: fixed;
+		bottom: 0;
 	}
 	.clickable:hover {
 		opacity: 0.5;
@@ -58,6 +60,7 @@
 	div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
+  float: left;
   width: 180px;
 }
 
