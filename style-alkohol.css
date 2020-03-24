@@ -51,3 +51,7 @@
 		text-align: left;
 		color: #444;
 	}
+	.clickable:hover {
+		opacity: 0.5;
+	}
+	
