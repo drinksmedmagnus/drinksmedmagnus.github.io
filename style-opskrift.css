@@ -86,3 +86,7 @@
 		color: #444;
 		width: 100%
 	}	
+	img:hover {
+		opacity: 0.5;
+	}
+	
