@@ -50,3 +50,8 @@
 		padding: 20px;
 		text-align: left;
 		color: #444;
+	}
+	.clickable a:hover {
+		color: SandyBrown;
+		border: 12px;
+	}
