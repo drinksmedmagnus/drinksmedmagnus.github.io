@@ -52,6 +52,5 @@
 		color: #444;
 	}
 	.clickable a:hover {
-		color: SandyBrown;
-		border: 12px;
+		opacity: 0.5;
 	}
