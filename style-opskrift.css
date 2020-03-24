@@ -60,7 +60,7 @@
 		width: 27.5%;
 		background: #ccc;
 		padding: 20px;
-		height: 550px;
+		min-height: 550px;
 		list-style-type: circle;
 	}	
 	.instructions {
@@ -68,7 +68,7 @@
 		padding: 20px;
 		width: 27.5%;
 		background-color: #f1f1f1;
-		height: 550px;
+		min-height: 550px;
 	}
 	.ingredients:after {
 		content: "";
