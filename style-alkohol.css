@@ -50,6 +50,7 @@
 		padding: 20px;
 		text-align: left;
 		color: #444;
+		width: 100%
 	}
 	.clickable:hover {
 		opacity: 0.5;
