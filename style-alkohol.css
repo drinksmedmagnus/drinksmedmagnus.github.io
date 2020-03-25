@@ -55,7 +55,7 @@
 		width: 100%;
 	}
 	.clickable:hover {
-
+		opacity: 0.5;
 	}
 	div.gallery {
 		margin: 5px;
@@ -66,8 +66,7 @@
 	}
 
 	div.gallery:hover {
-		border: 1px solid #555;
-		opacity: 0.5;
+		border: 1px solid #555
 	}
 
 	div.gallery img {
