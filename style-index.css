@@ -5,22 +5,21 @@
 		text-align: center;
 	}
 	
-	.topnav {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: #222;
-	}
-		
-			
-	.topnav a.active {
-		background-color: SandyBrown;
-		color: white;
-	}
-	li {
-  float: left;
-	}
+.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #222;
+}
+
+.topnav a.active {
+	background-color: SandyBrown;
+	color: white;
+}
+li {
+	float: left;
+}
 
 .topnav li a, .dropbtn {
   display: inline-block;
