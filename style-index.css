@@ -31,7 +31,7 @@
 }
 
 .topnav li a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: #444;
 }
 
 .topnav li.dropdown {
@@ -56,7 +56,7 @@
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #555;}
+.dropdown-content a:hover {background-color: #444;}
 
 .dropdown:hover .dropdown-content {
   display: block;
