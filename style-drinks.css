@@ -103,7 +103,7 @@
 
 	div.gallery img {
 		width: 50%;
-		height: auto;
+		height: 100%;
 		float: left;
 	}
 	div.desc {
