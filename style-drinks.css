@@ -1,0 +1,113 @@
+
+	body {
+		background-color: #766;
+		text-align: center;
+	}
+	
+.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #222;
+}
+
+.topnav a.active {
+	background-color: SandyBrown;
+	color: white;
+}
+.topnav li {
+	float: left;
+}
+
+.topnav li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav li a:hover, .dropdown:hover .dropbtn {
+  background-color: #444;
+}
+
+.topnav li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: Black;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #444;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+	.titel {
+		color: SandyBrown;
+		border: solid 2px;
+		background-color: white;
+	}
+	
+	.image {
+		color: SandyBrown;
+		border: solid 1px;
+	}
+	.container {
+		color: #ddd;
+	}
+	.text-block {
+	position: relative;
+	color: white;
+	}
+	.footer {
+		background-color: #777;
+		padding: 20px;
+		text-align: left;
+		color: #444;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	}
+	.clickable:hover {
+		opacity: 0.5;
+	}
+	div.gallery {
+		margin: 5px;
+		border: 1px solid SandyBrown;
+		float: left;
+		width: 180px;
+		background-color: #444;
+	}
+
+	div.gallery:hover {
+
+	}
+
+	div.gallery img {
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+	div.desc {
+		padding: 15px;
+		text-align: center;
+		color: White;
+	}
