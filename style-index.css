@@ -18,7 +18,7 @@
 	color: white;
 }
 .topnav li {
-	
+	float: left;
 }
 
 .topnav li a, .dropbtn {
